@@ -19,7 +19,7 @@ public class Protein {
             }
             if (aminoAcidList.size() == 3) {
                 CODON codon = CODON.getCodonBy3AminoAcids(aminoAcidList);
-                if (codon.getIsStopCodon()) {
+                if (codon.isStopCodon()) {
                     return true;
                 } else {
                     proteinSequence.add(CODON.getCodonBy3AminoAcids(aminoAcidList).getAminoAcid());
