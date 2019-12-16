@@ -1,6 +1,7 @@
 .idea
 .gradle
 gradle
+*/.gradle
 ./*/build
 ./*/out
 # Compiled class file
