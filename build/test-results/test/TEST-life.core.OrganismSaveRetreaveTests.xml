@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="life.core.OrganismSaveRetreaveTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-12-12T14:16:42" hostname="C02YH1AUJGH5" time="0.239">
-  <properties/>
-  <testcase name="saveAndRetrieveOrganizm" classname="life.core.OrganismSaveRetreaveTests" time="0.239"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
