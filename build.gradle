@@ -3,9 +3,14 @@ apply plugin: 'maven'
 
 group = 'life'
 version = '0.0.1'
-sourceCompatibility = 1.8
-targetCompatibility = 1.8
-compileJava.options.encoding = 'UTF-8'
+
+compileJava.options.encoding = "UTF-8"
+compileJava.sourceCompatibility = 1.8
+compileJava.targetCompatibility = 1.8
+
+compileTestJava.options.encoding = "UTF-8"
+compileTestJava.sourceCompatibility = 1.8
+compileTestJava.targetCompatibility = 1.8
 
 repositories {
     mavenCentral()
